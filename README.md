@@ -1,4 +1,4 @@
-# Aplicativa Login
+# Aplicativo Login
 - Utiliza um serviço API RESTful com informações dos usuários
 - Cria uma tela de login funcional
 - Cadastra novos usuários
