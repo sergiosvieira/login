@@ -1,6 +1,7 @@
 # Aplicativa Login
 - Utiliza um serviço API RESTful com informações dos usuários
 - Cria uma tela de login funcional
+- Cadastra novos usuários
 
 ## JSON Server
 - JSON Server é uma ferramenta que permite criar uma API RESTful de forma rápida e simples utilizando arquivos JSON como fonte de dados. 
