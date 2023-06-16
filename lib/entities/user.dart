@@ -16,4 +16,13 @@ class User {
   String toString() {
     return 'User(id: $id, username: $username, email: $email, pass: $password, validated: $validated)';
   }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'username': username,
+      'email': email,
+      'password': password,
+      'validated': validated
+    };
+  }
 }

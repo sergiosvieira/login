@@ -75,6 +75,15 @@ class _LoginState extends State<Login> {
                   }
                 },
                 child: const Text("Entrar")),
+          ),
+          Padding(
+            padding: EdgeInsets.all(16.0),
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/newuser');
+              },
+              child: Text("Cadastro"),
+            ),
           )
         ],
       ),

@@ -12,7 +12,21 @@
       "username": "tecalandia",
       "email": "tecalandia@aluno.ifce.edu.br",
       "password": "asdqwer",
-      "validated": true    
+      "validated": true
+    },
+    {
+      "username": "sergiosvieira",
+      "email": "sergiosvieira@ifce.edu.br",
+      "password": "123456",
+      "validated": true,
+      "id": 3
+    },
+    {
+      "username": "sdfdsf",
+      "email": "fsdfsdfds",
+      "password": "fsfsdfdsf",
+      "validated": true,
+      "id": 4
     }
   ]
 }

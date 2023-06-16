@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login/screens/login.dart';
+import 'package:login/screens/new_user.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/home': (context) => Center(
-              child: const Text("Seja bem-vindo"),
-            )
+        '/home': (context) => const Center(
+              child: Text("Seja bem-vindo"),
+            ),
+        '/newuser': (context) => Scaffold(appBar: AppBar(), body: NewUser()),
       },
       debugShowCheckedModeBanner: false,
       title: loginTitle,

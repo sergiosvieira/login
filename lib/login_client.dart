@@ -12,4 +12,11 @@ class LoginClient {
     }
     return {};
   }
+
+  static post(Map<String, dynamic> user) async {
+    final url = Uri.parse(host);
+    final headers = {"Content-type": "application/json"};
+    String json = jsonEncode(user);
+    final response = await http.post(url, headers: headers, body: json);
+  }
 }
