@@ -2,6 +2,7 @@
 - Utiliza um serviço API RESTful com informações dos usuários
 - Cria uma tela de login funcional
 - Cadastra novos usuários
+- Carrega informações de um Json e coloca em uma ListView através de FutureBuilder
 
 ## JSON Server
 - JSON Server é uma ferramenta que permite criar uma API RESTful de forma rápida e simples utilizando arquivos JSON como fonte de dados. 
