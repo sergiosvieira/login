@@ -25,4 +25,13 @@ class User {
       'validated': validated
     };
   }
+
+  factory User.fromMap(Map<String, dynamic> mapa) {
+    return User(
+        email: mapa['email'],
+        id: mapa['id'].toString(),
+        username: mapa['username'],
+        password: mapa['password'],
+        validated: true);
+  }
 }
